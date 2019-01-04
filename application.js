@@ -13,7 +13,9 @@ app.use('/hello', require('./lib/hello.js')());
 app.use('/mpctruckgeo', require ('./lib/mpctruckgeo.js')());
 app.use('/products', require ('./lib/sapodata.js')())
 app.use('/contacts', require ('./lib/contacts.js')());
+console.log ('BEFORE PD');
 app.use('/plaformdata', require ('./lib/platformdata.js')());
+console.log('AFTERPD');
 app.use('/accounts', require('./lib/accounts.js')());
 app.use('/workorders', require('./lib/workorders.js')());
 // app.use('/truckstats', require ('./lib/truckstats.js')());
