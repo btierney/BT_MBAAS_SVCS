@@ -9,9 +9,6 @@ app.use(cors());
 // allow serving of static files from the public directory
 app.use(express.static(__dirname + '/public'));
 
-// Note: important that this is added just before your own Routes
-app.use(mbaasExpress.fhmiddleware());
-
 app.use('/hello', require('./lib/hello.js')());
 app.use('/mpctruckgeo', require ('./lib/mpctruckgeo.js')());
 app.use('/truckstats', require ('./lib/truckstats.js')());
