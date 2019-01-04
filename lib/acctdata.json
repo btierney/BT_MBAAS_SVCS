@@ -1,0 +1,102 @@
+[
+        {
+          "Type": "CHANNEL_PARTNER___RESELLER",
+          "TickerSymbol": "WMT",
+          "AccountSource": "OTHER",
+          "id": "A0011H00001QJCUwQAP",
+          "AnnualRevenue": 500342,
+          "Name": "Walmart",
+          "AccountNumber": 100,
+          "Active__c": "YES"
+        },
+        {
+          "Type": "CUSTOMER___CHANNEL",
+          "TickerSymbol": "XOM",
+          "AccountSource": "PARTNER_REFERRAL",
+          "id": "B0011H00001QJCUwQAP",
+          "AnnualRevenue": 244263,
+          "Name": "Exxon Mobil",
+          "AccountNumber": 200,
+          "Active__c": "NO"
+        },
+        {
+          "Type": "CUSTOMER___DIRECT",
+          "TickerSymbol": "BRK",
+          "AccountSource": "PHONE_INQUIRY",
+          "id": "C0011H00001QJCUwQAP",
+          "AnnualRevenue": 242137,
+          "Name": "Berkshire Hathaway",
+          "AccountNumber": 300,
+          "Active__c": "YES"
+        },
+        {
+          "Type": "INSTALLATION_PARTNER",
+          "TickerSymbol": "AAPL",
+          "AccountSource": "PURCHASED_LIST",
+          "id": "D0011H00001QJCUwQAP",
+          "AnnualRevenue": 229234,
+          "Name": "Apple",
+          "AccountNumber": 400,
+          "Active__c": "NO"
+        },
+        {
+          "Type": "OTHER",
+          "TickerSymbol": "UNH",
+          "AccountSource": "WEB",
+          "id": "E0011H00001QJCUwQAP",
+          "AnnualRevenue": 201159,
+          "Name": "UnitedHealth Group",
+          "AccountNumber": 500,
+          "Active__c": "YES"
+        },
+        {
+          "Type": "PROSPECT",
+          "TickerSymbol": "MCK",
+          "AccountSource": "OTHER",
+          "id": "F0011H00001QJCUwQAP",
+          "AnnualRevenue": 198533,
+          "Name": "McKesson",
+          "AccountNumber": 600,
+          "Active__c": "YES"
+        },
+        {
+          "Type": "TECHNOLOGY_PARTNER",
+          "TickerSymbol": "CVS",
+          "AccountSource": "PARTNER_REFERRAL",
+          "id": "G0011H00001QJCUwQAP",
+          "AnnualRevenue": 184765,
+          "Name": "CVS Health",
+          "AccountNumber": 700,
+          "Active__c": "NO"
+        },
+        {
+          "Type": "OTHER",
+          "TickerSymbol": "AMZN",
+          "AccountSource": "PHONE_INQUIRY",
+          "id": "H0011H00001QJCUwQAP",
+          "AnnualRevenue": 177866,
+          "Name": "Amazon.com",
+          "AccountNumber": 800,
+          "Active__c": "YES"
+        },
+        {
+          "Type": "PROSPECT",
+          "TickerSymbol": "T",
+          "AccountSource": "PURCHASED_LIST",
+          "id": "I0011H00001QJCUwQAP",
+          "AnnualRevenue": 160646,
+          "Name": "AT&T",
+          "AccountNumber": 900,
+          "Active__c": "NO"
+        },
+        {
+          "Type": "TECHNOLOGY_PARTNER",
+          "TickerSymbol": "GM",
+          "AccountSource": "WEB",
+          "id": "J0011H00001QJCUwQAP",
+          "AnnualRevenue": 157311,
+          "Name": "General Motors",
+          "AccountNumber": 1000,
+          "Active__c": "YES"
+        }
+      ]

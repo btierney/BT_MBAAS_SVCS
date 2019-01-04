@@ -1,0 +1,74 @@
+[
+   {
+      "type":"created",
+      "createdDate":"2018-06-25T20:39:00.000+0000",
+      "payload":{
+         "Type":null,
+         "TickerSymbol":null,
+         "Id":"0011H00001QwIxcQAF",
+         "AnnualRevenue":null,
+         "Name":"New Customer 4567",
+         "Active__c":null,
+         "AccountNumber":"333"
+      }
+   },
+   {
+      "type":"created",
+      "createdDate":"2018-06-25T20:40:51.000+0000",
+      "payload":{
+         "Type":null,
+         "TickerSymbol":null,
+         "Id":"0011H00001QwIyLQAV",
+         "AnnualRevenue":null,
+         "Name":"New Customer 123",
+         "Active__c":null,
+         "AccountNumber":"222"
+      }
+   },
+   {
+      "type":"updated",
+      "createdDate":"2018-06-25T20:42:06.000+0000",
+      "payload":{
+         "Type":null,
+         "TickerSymbol":null,
+         "Id":"0011H00001QwIxcQAF",
+         "AnnualRevenue":null,
+         "Name":"New Customer Modified 123",
+         "Active__c":null,
+         "AccountNumber":"222"
+      }
+   },
+   {
+      "type":"updated",
+      "createdDate":"2018-06-25T20:42:29.000+0000",
+      "payload":{
+         "Type":"Prospect",
+         "TickerSymbol":null,
+         "Id":"0011H00001QwIlaQAF",
+         "AnnualRevenue":null,
+         "Name":"New Customer 212",
+         "Active__c":null,
+         "AccountNumber":"111"
+      }
+   },
+   {
+      "type":"updated",
+      "createdDate":"2018-06-25T20:43:00.000+0000",
+      "payload":{
+         "Type":null,
+         "TickerSymbol":null,
+         "Id":"0011H00001QwIvlQAF",
+         "AnnualRevenue":2000.0,
+         "Name":"New Customer 4567",
+         "Active__c":null,
+         "AccountNumber":"333"
+      }
+   },
+   {
+      "type":"deleted",
+      "createdDate":"2018-06-25T20:43:06.000+0000",
+      "payload":{
+         "Id":"0011H00001QwIvlQAF"
+      }
+   }
+]
