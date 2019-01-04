@@ -18,7 +18,7 @@ app.use('/accounts', require('./lib/accounts.js')());
 app.use('/workorders', require('./lib/workorders.js')());
 // app.use('/truckstats', require ('./lib/truckstats.js')());
 
-var port = process.env.OPENSHIFT_NODEJS_PORT || 8001;
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var host = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 app.listen(port, host, function() {
   console.log("App started at: " + new Date() + " on port: " + port); 
