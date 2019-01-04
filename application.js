@@ -11,12 +11,12 @@ app.use(express.static(__dirname + '/public'));
 
 app.use('/hello', require('./lib/hello.js')());
 app.use('/mpctruckgeo', require ('./lib/mpctruckgeo.js')());
-app.use('/truckstats', require ('./lib/truckstats.js')());
 app.use('/products', require ('./lib/sapodata.js')())
 app.use('/contacts', require ('./lib/contacts.js')());
 app.use('/plaformdata', require ('./lib/platformdata.js')());
 app.use('/accounts', require('./lib/accounts.js')());
 app.use('/workorders', require('./lib/workorders.js')());
+// app.use('/truckstats', require ('./lib/truckstats.js')());
 
 var port = process.env.OPENSHIFT_NODEJS_PORT || 8001;
 var host = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
